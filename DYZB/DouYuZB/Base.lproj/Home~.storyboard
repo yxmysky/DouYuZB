@@ -62,11 +62,11 @@
             </objects>
             <point key="canvasLocation" x="-887" y="-123"/>
         </scene>
-        <!--Item 1-->
+        <!--首页-->
         <scene sceneID="UF9-zX-HDj">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="emL-Ui-qcH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" image="btn_home_normal" selectedImage="btn_home_selected" id="K2W-s9-Wkn"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="btn_home_normal" selectedImage="btn_home_selected" id="K2W-s9-Wkn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zHT-KE-DOS">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
