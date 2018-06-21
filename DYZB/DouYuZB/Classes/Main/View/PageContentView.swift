@@ -24,7 +24,7 @@ class PageContentView: UIView {
     private weak var parentViewController : UIViewController?
     private var startOffsetX : CGFloat = 0
     weak var delegate : PageContentViewDelegate?
-    
+    private var isForbidScrollDelegate = false
     
     // 懒加载属性
     
@@ -128,9 +128,17 @@ extension PageContentView : UICollectionViewDelegate {
     
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         startOffsetX = scrollView.contentOffset.x
+        isForbidScrollDelegate = false
+        
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        // 0. 记录是否需要实现代理方法
+        
+        if isForbidScrollDelegate {
+            return
+        }
+        
         // 1. 定义获取滚动的信息
         var progress : CGFloat = 0
         var sourcesIndex : Int = 0
@@ -201,6 +209,11 @@ extension PageContentView : UICollectionViewDelegate {
 extension PageContentView {
     
     func setupCurrentIndex(currentIndex : Int) {
+        
+        
+        
+        
+        
         
         let offsetX = CGFloat(currentIndex) * collectionView.frame.width
         

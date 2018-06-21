@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047F3EF420DBD6FD00D1F00F /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3EF320DBD6FD00D1F00F /* RecommendViewController.swift */; };
 		04F3AF9D20D7F7C10044FBE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3AF9C20D7F7C10044FBE2 /* AppDelegate.swift */; };
 		04F3AF9F20D7F7C10044FBE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3AF9E20D7F7C10044FBE2 /* ViewController.swift */; };
 		04F3AFA220D7F7C10044FBE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F3AFA020D7F7C10044FBE2 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047F3EF320DBD6FD00D1F00F /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecommendViewController.swift; path = ../../../../../../../../Documents/RecommendViewController.swift; sourceTree = "<group>"; };
 		04F3AF9920D7F7C10044FBE2 /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F3AF9C20D7F7C10044FBE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F3AF9E20D7F7C10044FBE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 			children = (
 				FA0D8D1820D89E41006B1722 /* Home.storyboard */,
 				FA0D8D2320D8A3F5006B1722 /* HomeViewController.swift */,
+				047F3EF320DBD6FD00D1F00F /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 			files = (
 				04F3AF9F20D7F7C10044FBE2 /* ViewController.swift in Sources */,
 				FA5BD44320DA44B400C876B4 /* UIColor-Extension.swift in Sources */,
+				047F3EF420DBD6FD00D1F00F /* RecommendViewController.swift in Sources */,
 				04F3AF9D20D7F7C10044FBE2 /* AppDelegate.swift in Sources */,
 				FA5BD43B20D9F95900C876B4 /* PageTitleView.swift in Sources */,
 				FA5BD43F20DA421B00C876B4 /* PageContentView.swift in Sources */,
