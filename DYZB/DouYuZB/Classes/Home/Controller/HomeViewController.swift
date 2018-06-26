@@ -9,6 +9,7 @@
 import UIKit
 
 private let kTitleViewH : CGFloat = 40
+private let kTabbarH : CGFloat = 44
 
 
 class HomeViewController: UIViewController {
@@ -30,7 +31,7 @@ class HomeViewController: UIViewController {
     private lazy var pageContenView : PageContentView = { [weak self] in
        
         // 1. 确定内容的frame
-        let contenH = kScreenHeigh - kStatusBarH - kNavigationBarH - kTitleViewH
+        let contenH = kScreenHeigh - kStatusBarH - kNavigationBarH - kTitleViewH - kTabbarH
         let contentFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH + kTitleViewH, width: kScreenWidth, height: contenH)
         
         // 2. 确定所有的子控制器
